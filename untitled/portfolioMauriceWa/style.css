@@ -7,24 +7,31 @@ html {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #dadbd9;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
-    padding: 1000px;
 }
 
-.id\=\"voornaam\", .id\=\"achternaam\" {
+.text-div {
     padding: 10px;
-    color: #dadbd9;
+    margin-top: 150px;
+    margin-left: 60px;
 }
 
 
-@media screen and (max-width: 768px) {
+#voornaam {
+    margin-right: 500px;
+}
+
+@media screen and (max-width: 600px) {
     .flex-container {
         flex-direction: column;
-        align-items: center;
+    }
+
+    #voornaam { /* TEST THIS FOR PHONES BEFORE FINISHING */
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
-
