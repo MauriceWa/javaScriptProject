@@ -1,15 +1,25 @@
 html {
-    font-size: 40px;
     background-size: 100% 100%;
     background: url('/redBackground.png') no-repeat center center;
 }
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    color: #dadbd9;
+    font-family: Bebas Neue, Arial, serif;
+    color: #ffffe0;
+    font-size: 60px;
 }
 
+/* Contact Bar Styles */
+.top-bar {
+    background-color: rgba(215, 34, 57, 0.49);
+    text-align: left;
+}
+
+.top-bar p {
+    margin: 0;
+    color: #ffffe0;
+}
 
 
 #navigateButton {
@@ -20,31 +30,52 @@ body {
     margin-top: 25px;
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     background-image: url('/Github Image.png');
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     text-indent: -9999px;
+    font-family: inherit;
 }
 
 
 .flex-container {
     display: flex;
+
 }
 
 .text-div {
     padding: 10px;
     margin-top: 150px;
     margin-left: 60px;
+    font-family: inherit;
 }
 
 
 #voornaam {
     margin-right: 500px;
 }
+#achternaam{
+    margin-left: 700px;
+}
 
+#emailButton {
+    font-size: 20px;
+    color: #ffffe0;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    font-family: inherit;
+
+}
 @media screen and (max-width: 600px) {
     .flex-container {
         flex-direction: column;
