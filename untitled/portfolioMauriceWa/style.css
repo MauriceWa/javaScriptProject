@@ -10,6 +10,26 @@ body {
     color: #dadbd9;
 }
 
+
+
+#navigateButton {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #dadbd9;
+    margin-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('/Github Image.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+}
+
+
 .flex-container {
     display: flex;
 }
@@ -35,3 +55,5 @@ body {
         margin-bottom: 10px;
     }
 }
+
+
