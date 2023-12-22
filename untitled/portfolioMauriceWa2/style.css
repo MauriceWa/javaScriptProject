@@ -1,0 +1,41 @@
+/* Background color */
+body {
+    background:
+}
+
+/* Met flex zet je alle child elementen naast elkaar */
+main {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+}
+
+/* Geef de child element een width en breedte */
+main > div {
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div span {
+    font-size: 3rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media attribute voor CSS wat alleen met een resolutie van max 800px gebruikt wordt */
+@media(max-width: 800px) {
+    main {
+        display: block;
+    }
+    main > div {
+        width: 100%;
+    }
+}
