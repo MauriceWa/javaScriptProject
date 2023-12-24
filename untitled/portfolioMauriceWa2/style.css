@@ -1,34 +1,69 @@
-body {
+body, html {
     margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: auto 1fr auto auto;
     background: url('Images/redBackground.png') center center no-repeat;
     background-size: cover;
     height: 100vh;
-    position: relative;
 }
 
-.name {
-    border: 1px solid black;
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 0, 0, 0.5);
-    font-family: Bebas Neue, Arial, serif;
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffe0;
+    text-align: center;
+}
+
+.header > #emailButton img {
+    max-width: 5vw;
+    height: auto;
+
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #ffffe0;
     font-size: 60px;
+    z-index: 2;
+}
+
+.firstname {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: start;
+    padding-left: 5vw;
+}
+
+.lastname {
+    grid-row: 2;
+    grid-column: 3;
+    justify-self: end;
+    padding-right: 5vw;
 }
 
 .portrait {
+    grid-row: 2;
     grid-column: 2;
-    align-self: center;
-    justify-self: center;
+    place-self: center;
+    z-index: 1;
 }
 
 .portrait img {
-    max-height: 500px;
+    max-height: 20vh;
+    max-width: 20vh;
+    border-radius: 25%;
+    border: 0.5vh solid #cf2038;
+    object-fit: cover; 
 }
+
