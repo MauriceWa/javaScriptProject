@@ -26,6 +26,15 @@ body {
     box-sizing: border-box;
 
 }
+.container-name-image{
+    position: fixed;
+    top:2em;
+    align-items: center;
+    justify-content: center;
+    color: #ffffe0;
+    font-size: 60px;
+}
+
 
 .header img {
     max-width: 50px;
