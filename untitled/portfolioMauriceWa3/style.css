@@ -41,3 +41,9 @@ body {
     height: auto;
     vertical-align: middle;
 }
+
+.container-name-image img {
+    display: block;
+    width: 5em;
+    margin: 0 auto;
+}
