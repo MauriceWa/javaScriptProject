@@ -8,10 +8,6 @@ body {
     background-attachment: fixed;
 }
 
-
-
-
-
 .header{
     position: fixed;
     top: 0;
@@ -26,7 +22,6 @@ body {
     box-sizing: border-box;
     text-align: center;
     vertical-align: middle;
-    horiz-align: center;
     font-family: "Bodoni MT", serif;
 }
 
@@ -34,7 +29,6 @@ body {
     max-width: 50px;
     height: auto;
     vertical-align: middle;
-    horiz-align: center;
 }
 
 .container-name-image{
@@ -52,11 +46,33 @@ body {
 }
 
 
-.voornaam, .achternaam {
-}
-
-
 .container-name-image img {
     max-width: 5em;
     margin: 0 1em;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: initial;
+    bottom: initial;
+    z-index: 5;
+    width: 100%;
+    padding-top: 30em;
+}
+
+.box {
+    width: 200px;
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #000000;
+    background-color: rgb(0,255,0,0.2);
+}
+
+.description {
+    display: block;
+    margin-top: 10px;
 }
