@@ -22,19 +22,34 @@
 
 
 <section class="box-container">
-    <button class="box">
+    <div class="box" onclick="location.href='https://url-voor-laatste-project.com';">
         <span class="box-title">Latest Project</span>
-        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque doloribus, molestias nobis pariatur repudiandae rerum sequi temporibus velit. Cum, dolorem explicabo inventore nisi nostrum quia quisquam saepe sapiente vero.</span>
-    </button>
-    <button class="box">
+        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam autem, eos explicabo fugit ipsa, laudantium libero molestiae, mollitia nulla pariatur porro quae recusandae reiciendis rerum sint velit veritatis voluptatem!</span>
+    </div>
+    <div class="box" onclick="location.href='https://github.com/MauriceWa';">
         <span class="box-title">My GitHub</span>
-        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque doloribus, molestias nobis pariatur repudiandae rerum sequi temporibus velit. Cum, dolorem explicabo inventore nisi nostrum quia quisquam saepe sapiente vero.</span>
-    </button>
-    <button class="box">
+        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum exercitationem expedita fuga incidunt molestias officia placeat sequi voluptatum? Autem consequatur, delectus dignissimos enim ipsum nisi quo rerum totam voluptatem voluptates.</span>
+    </div>
+    <div class="box" onclick="location.href='https://url-voor-ervaringen.com';">
         <span class="box-title">Experiences</span>
-        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque doloribus, molestias nobis pariatur repudiandae rerum sequi temporibus velit. Cum, dolorem explicabo inventore nisi nostrum quia quisquam saepe sapiente vero.</span>
-    </button>
+        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi fuga harum illo nostrum voluptate. Autem dignissimos earum expedita facilis iste laboriosam minus nemo obcaecati porro, praesentium, quaerat repellat sunt ut.</span>
+    </div>
 </section>
 
 </body>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+        let buttons = document.querySelectorAll('.box');
+
+        buttons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                alert('Redirecting to github');
+            });
+        });
+
+    });
+</script>
+
 </html>
