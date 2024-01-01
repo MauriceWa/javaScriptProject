@@ -76,3 +76,8 @@ body {
     display: block;
     margin-top: 10px;
 }
+
+.box-title {
+    display: block;
+    font-weight: bold;
+}
