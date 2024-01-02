@@ -1,0 +1,2 @@
+creeër een header met email, nummer, github en linkedin
+verbeter de website zoals in figma staat

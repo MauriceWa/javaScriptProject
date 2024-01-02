@@ -31,12 +31,12 @@ body {
     vertical-align: middle;
 }
 
-.container-name-image{
+.container-name-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 2em;
+    position: relative;
+    margin-top: 2em;
     left: 50%;
     transform: translateX(-50%);
     color: #ffffe0;
@@ -49,20 +49,23 @@ body {
 .container-name-image img {
     max-width: 5em;
     margin: 0 1em;
+    border-radius: 5%;
 }
+
 
 
 .box-container {
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: relative;
     top: initial;
     bottom: initial;
     z-index: 5;
     width: 100%;
-    padding-top: 30em;
+    margin-top: 3em;
     font-family: "Bodoni MT", serif;
 }
+
 
 .box {
     width: 250px;
@@ -70,6 +73,7 @@ body {
     text-align: center;
     padding: 1em;
     border: 1px solid #000000;
+    border-radius: 15%;
     background-color: rgb(206, 58, 93, 0.8);
 }
 
@@ -77,6 +81,7 @@ body {
     display: block;
     margin-top: 10px;
     font-size: 1.2em;
+    color: #fdfddf;
 }
 
 .box-title {
@@ -86,6 +91,24 @@ body {
     border-bottom: 1px solid black;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    color: #000000;
 
+}
+
+.intro-paragraph {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 2px rgba(0, 0, 0, 0.6),
+    1px -1px 2px rgba(0, 0, 0, 0.6),
+    -1px  1px 2px rgba(0, 0, 0, 0.6),
+    1px  1px 2px rgba(0, 0, 0, 0.6);
+    outline: black;
+    font-family: "Bodoni MT", serif;
+    color: #fdfddf;
+    padding: 0 15px;
 
 }
