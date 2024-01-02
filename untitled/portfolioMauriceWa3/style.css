@@ -55,29 +55,37 @@ body {
 .box-container {
     display: flex;
     justify-content: center;
-    position: relative;
+    position: fixed;
     top: initial;
     bottom: initial;
     z-index: 5;
     width: 100%;
     padding-top: 30em;
+    font-family: "Bodoni MT", serif;
 }
 
 .box {
-    width: 200px;
+    width: 250px;
     margin: 1em;
     text-align: center;
     padding: 1em;
     border: 1px solid #000000;
-    background-color: rgb(0,255,0,0.2);
+    background-color: rgb(206, 58, 93, 0.8);
 }
 
 .description {
     display: block;
     margin-top: 10px;
+    font-size: 1.2em;
 }
 
 .box-title {
     display: block;
     font-weight: bold;
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+
 }
