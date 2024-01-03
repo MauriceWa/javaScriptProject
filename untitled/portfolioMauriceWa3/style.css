@@ -74,6 +74,7 @@ body {
     padding: 1em;
     border: 1px solid #000000;
     border-radius: 15%;
+    cursor: pointer;
     background-color: rgb(206, 58, 93, 0.8);
 }
 
