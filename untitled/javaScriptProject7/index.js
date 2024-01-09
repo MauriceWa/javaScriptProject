@@ -41,54 +41,54 @@
 //         console.log(`${day} is not a day`)
 // }
 
-// let testScore = 92;
-// let letterGrade;
-//
-// switch(true){
-//     case testScore >=90:
-//         letterGrade = "A";
-//         break;
-//     case testScore >=80:
-//         letterGrade = "B";
-//         break;
-//     case testScore >=70:
-//         letterGrade = "C";
-//         break;
-//     case testScore >=60:
-//         letterGrade = "D";
-//         break;
-//     default:
-//         letterGrade = "F";
-// }
+let testScore = 92;
+let letterGrade;
 
-// let userName = "     Maurice Wa   ";
+switch(true){
+    case testScore >=90:
+        letterGrade = "A";
+        break;
+    case testScore >=80:
+        letterGrade = "B";
+        break;
+    case testScore >=70:
+        letterGrade = "C";
+        break;
+    case testScore >=60:
+        letterGrade = "D";
+        break;
+    default:
+        letterGrade = "F";
+}
 
-// console.log(userName.charAt(0));
-// console.log(userName.indexOf("r"));
-// console.log(userName.lastIndexOf("a"))
-// console.log(userName.length)
-//
-// userName = userName.trim();
-// userName = userName.toUpperCase();
-// userName = userName.toLowerCase();
-// userName = userName.repeat(3);
-//
-// console.log(userName)
+let userName = "     Maurice Wa   ";
 
-// let result = userName.startsWith(" ")
-// console.log(result)
-//
-// if(result) {
-//     console.log("You're username can't begin with ' ' ");
-// }
-// else{
-//     console.log(userName);
-// }
+console.log(userName.charAt(0));
+console.log(userName.indexOf("r"));
+console.log(userName.lastIndexOf("a"))
+console.log(userName.length)
 
-// let result = userName.includes(" ")
-// if(result) {
-//     console.log("You're username can't include with ' ' ");
-// }
+userName = userName.trim();
+userName = userName.toUpperCase();
+userName = userName.toLowerCase();
+userName = userName.repeat(3);
+
+console.log(userName)
+
+let result = userName.startsWith(" ")
+console.log(result)
+
+if(result) {
+    console.log("You're username can't begin with ' ' ");
+}
+else{
+    console.log(userName);
+}
+
+let result = userName.includes(" ")
+if(result) {
+    console.log("You're username can't include with ' ' ");
+}
 
 
 let phoneNumber = "123-456-7890";
