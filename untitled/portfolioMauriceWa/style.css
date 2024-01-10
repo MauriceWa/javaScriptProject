@@ -1,6 +1,6 @@
 html {
     background-size: 100% 100%;
-    background: url('/redBackground.png') no-repeat center center;
+    background: url('Images/redBackground.png') no-repeat center center;
     height: 100%;
     padding: 0;
     display: block;
@@ -40,7 +40,7 @@ body {
     top: 0;
     left: 40%;
     transform: translateX(-50%);
-    background-image: url('/Github Image.png');
+    background-image: url('Images/Github Image.png');
     background-size: cover;
     width: 80px;
     height: 80px;
